@@ -9,43 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = college
 build_property.RootNamespace = college
-build_property.ProjectDir = /Users/kumaramrendram/Desktop/college/
+build_property.ProjectDir = /Users/kumaramrendram/Desktop/Projects/india comm/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/kumaramrendram/Desktop/college
+build_property.MSBuildProjectDirectory = /Users/kumaramrendram/Desktop/Projects/india comm
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/darshita.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/AddMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkTWVtYmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/callForPapers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvY2FsbEZvclBhcGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/darshita.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvZGFyc2hpdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/Error.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/Index.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Faqs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmFxcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/Privacy.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/IndiaCommHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kaWFDb21tSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/_ViewImports.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/SpecialSessions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3BlY2lhbFNlc3Npb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/_ViewStart.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/kumaramrendram/Desktop/college/Pages/Shared/_Layout.cshtml]
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d9d1q0nym4

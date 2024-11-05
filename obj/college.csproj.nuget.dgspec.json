@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kumaramrendram/Desktop/college/college.csproj": {}
+    "/Users/kumaramrendram/Desktop/Projects/india comm/college.csproj": {}
   },
   "projects": {
-    "/Users/kumaramrendram/Desktop/college/college.csproj": {
+    "/Users/kumaramrendram/Desktop/Projects/india comm/college.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kumaramrendram/Desktop/college/college.csproj",
+        "projectUniqueName": "/Users/kumaramrendram/Desktop/Projects/india comm/college.csproj",
         "projectName": "college",
-        "projectPath": "/Users/kumaramrendram/Desktop/college/college.csproj",
+        "projectPath": "/Users/kumaramrendram/Desktop/Projects/india comm/college.csproj",
         "packagesPath": "/Users/kumaramrendram/.nuget/packages/",
-        "outputPath": "/Users/kumaramrendram/Desktop/college/obj/",
+        "outputPath": "/Users/kumaramrendram/Desktop/Projects/india comm/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kumaramrendram/.nuget/NuGet/NuGet.Config"

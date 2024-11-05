@@ -1,0 +1,177 @@
+@page
+@model AddMember
+@{
+    ViewData["Title"] = "";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="container py-5">
+    <h2 class="mb-4">Sign Up</h2>
+    <p class="text-muted">Fields marked with an asterisk <span class="text-danger">*</span> are required.</p>
+    <form class="px-10">
+        <!-- Salutation -->
+        <div class="mb-3">
+            <label for="salutation" class="form-label">Salutation <span class="text-danger">*</span></label>
+            <select class="form-select" id="salutation" required>
+                <option selected disabled>Please select a salutation</option>
+                <option>Mr.</option>
+                <option>Ms.</option>
+                <option>Dr.</option>
+                <option>Prof.</option>
+            </select>
+        </div>
+
+        <!-- Name -->
+        <div class="mb-3">
+            <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+
+        <!-- Address -->
+        <div class="mb-3">
+            <label for="address" class="form-label">Address <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="address" required>
+        </div>
+
+        <!-- Country -->
+        <div class="mb-3">
+            <label for="country" class="form-label">Country <span class="text-danger">*</span></label>
+            <select class="form-select" id="country" required>
+                <option selected disabled>[Select]</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>Canada</option>
+                <!-- Add more countries as needed -->
+            </select>
+        </div>
+
+        <!-- State -->
+        <div class="mb-3">
+            <label for="state" class="form-label">State</label>
+            <input type="text" class="form-control" id="state">
+        </div>
+
+        <!-- Pincode -->
+        <div class="mb-3">
+            <label for="pincode" class="form-label">Pincode</label>
+            <input type="text" class="form-control" id="pincode">
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3">
+            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+
+        <!-- Mobile Number -->
+        <div class="mb-3">
+            <label for="mobile" class="form-label">Mobile No. <span class="text-danger">*</span></label>
+            <input type="tel" class="form-control" id="mobile" required>
+        </div>
+
+        <!-- Phone -->
+        <div class="mb-3">
+            <label for="phone" class="form-label">Phone</label>
+            <div class="row g-1">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Country Code">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="State Code">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                </div>
+            </div>
+        </div>
+
+        <!-- Fax -->
+        <div class="mb-3">
+            <label for="fax" class="form-label">Fax</label>
+            <div class="row g-1">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Country Code">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="State Code">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Fax Number">
+                </div>
+            </div>
+        </div>
+
+        <!-- Biodata Upload -->
+        <div class="mb-3">
+            <label for="biodata" class="form-label">Biodata (Only doc/docx/pdf formats)</label>
+            <input type="file" class="form-control" id="biodata">
+        </div>
+
+        <!-- Interested Event -->
+        <div class="mb-3">
+            <label for="event" class="form-label">Interested Event <span class="text-danger">*</span></label>
+            <select class="form-select" id="event" required>
+                <option selected disabled>Please select an event</option>
+                <option>Event 1</option>
+                <option>Event 2</option>
+                <!-- Add more events as needed -->
+            </select>
+        </div>
+
+        <!-- Membership Numbers -->
+        <div class="mb-3">
+            <label for="csiMembership" class="form-label">CSI Membership No.</label>
+            <input type="text" class="form-control" id="csiMembership">
+        </div>
+        <div class="mb-3">
+            <label for="otherMembership" class="form-label">IEEE/ISTE/IETE/IITP/IMP Membership No.</label>
+            <input type="text" class="form-control" id="otherMembership">
+        </div>
+
+        <!-- Organisation -->
+        <div class="mb-3">
+            <label for="organisation" class="form-label">Organisation <span class="text-danger">*</span></label>
+            <select class="form-select" id="organisation" required>
+                <option selected disabled>[Select]</option>
+                <option>Organisation 1</option>
+                <option>Organisation 2</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <!-- Category -->
+        <div class="mb-3">
+            <label for="category" class="form-label">Category <span class="text-danger">*</span></label>
+            <select class="form-select" id="category" required>
+                <option selected disabled>[Select a Category]</option>
+                <option>Category 1</option>
+                <option>Category 2</option>
+            </select>
+        </div>
+
+        <!-- Password -->
+        <div class="mb-3">
+            <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+            <input type="password" class="form-control" id="password" required>
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password <span class="text-danger">*</span></label>
+            <input type="password" class="form-control" id="confirmPassword" required>
+        </div>
+
+        <!-- Consent Checkbox -->
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="consent" required>
+            <label class="form-check-label" for="consent">
+                I hereby convey my consent to receive information about the activities of the institution by email or by
+                SMS on my Mobile number, from time to time, by the Institution.
+            </label>
+        </div>
+
+        <!-- Submit & Reset Buttons -->
+        <button type="submit" class="btn btn-primary w-25">Submit</button>
+        <button type="reset" class="btn btn-secondary w-25">Reset</button>
+    </form>
+</div>
