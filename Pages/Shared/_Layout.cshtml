@@ -34,38 +34,38 @@
     </nav>
     </header> *@
 
-    <header class="container primary-gradient box-shadow rounded-3">
-        <nav class="navbar">
-            <div class="">
-                <div class="row align-items-center">
-                    <!-- First Column: 1/4 width -->
-                    <div class="col-3 text-center">
-                        <a class="" asp-area="" asp-page="/Index">
-                            <img src="images/BVICAM-LOGO.png" class="w-100 navbar-brand" alt="BVICAM Logo" />
-                        </a>
-                    </div>
+    <div class="container">
+        <header class="container primary-gradient box-shadow rounded-3">
+            <nav class="navbar">
+                <div class="">
+                    <div class="row align-items-center">
+                        <!-- First Column: 1/4 width -->
+                        <div class="col-3 text-center">
+                            <a class="" asp-area="" asp-page="/Index">
+                                <img src="images/BVICAM-LOGO.png" class="w-100 navbar-brand" alt="BVICAM Logo" />
+                            </a>
+                        </div>
 
-                    <!-- Second Column: 1/2 width -->
-                    <div class="col-6 text-center fw-bold text-primary">
-                        <p class="fs-2">INDIACom-2025</p>
-                        <p class="fs-6">
-                            19th INDIACom; 12th 2025 International Conference on<br />
-                            Computing for Sustainable Global Development<br />
-                            02nd-04th April, 2025
-                        </p>
-                    </div>
+                        <!-- Second Column: 1/2 width -->
+                        <div class="col-6 text-center fw-bold text-primary">
+                            <p class="fs-2">INDIACom-2025</p>
+                            <p class="fs-6">
+                                19th INDIACom; 12th 2025 International Conference on<br />
+                                Computing for Sustainable Global Development<br />
+                                02nd-04th April, 2025
+                            </p>
+                        </div>
 
-                    <!-- Third Column: 1/4 width -->
-                    <div class="col-3 text-center">
-                        <img src="images/IEEE_NEWLOGO.png" class="w-100" alt="IEEE Logo" />
+                        <!-- Third Column: 1/4 width -->
+                        <div class="col-3 text-center">
+                            <img src="images/IEEE_NEWLOGO.png" class="w-100" alt="IEEE Logo" />
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </nav>
-    </header>
-    <div class="">
-        <div class="d-flex justify-content-center align-items-center gap-4 bg-white py-2">
+            </nav>
+        </header>
+        <div class="d-flex justify-content-center align-items-center gap-4 bg-white my-2 p-2 rounded-3">
             <img src="https://bvicam.ac.in/indiacom/images/IEEE-Logo.png" class="" style="width: 120px; height: 60px;">
             <img src="https://bvicam.ac.in/indiacom/images/IETE-Logo.png" class="" style="width: 80px; height: 80px;">
             <img src="https://bvicam.ac.in/indiacom/images/IITP-Logo.jpg" class="" style="width: 80px; height: 80px;">
@@ -74,120 +74,120 @@
             <img src="https://bvicam.ac.in/indiacom/images/ISTE-Logo.png" class="" style="width: 80px; height: 80px;">
             <img src="https://bvicam.ac.in/indiacom/images/GGSIU-Logo.png" class="" style="width: 100px; height: 80px;">
         </div>
+        <div>
+            <main role="main" class="container p-0 my-2">
+                <div class="announcement-container shadow-lg my-1 bg-red">
+                    <div class="slider">
+                        <div class="slide">
+                            <p>Admission Enquiry</p>
+                        </div>
+                        <div class="slide">
+                            <p>Important Dates</p>
+                        </div>
+                        <div class="slide">
+                            <p>Submit Paper</p>
+                        </div>
+                        <div class="slide">
+                            <p>Get Membership</p>
+                        </div>
+                        <div class="slide">
+                            <p>Admission Enquiry</p>
+                        </div>
+                        <div class="slide">
+                            <p>Important Dates</p>
+                        </div>
+                        <div class="slide">
+                            <p>Submit Paper</p>
+                        </div>
+                        <div class="slide">
+                            <p>Get Membership</p>
+                        </div>
+                    </div>
+
+                </div>
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    @*
+    <footer class="footer container">
+    <div class="">
+    <div class="row">
+    <!-- Important Links 1 -->
+    <div class="col-md-3 important-links">
+    <h5>Important Links</h5>
+    <ul class="list-unstyled">
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">SGRC</a></li>
+    <li><a href="#">NIRF Data</a></li>
+    <li><a href="#">Mandatory Disclosure - Academic Audit</a></li>
+    <li><a href="#">Blog</a></li>
+    </ul>
+    </div>
+
+    <!-- Important Links 2 -->
+    <div class="col-md-3 important-links">
+    <h5>Important Links</h5>
+    <ul class="list-unstyled">
+    <li><a href="#">Grievances Redressal</a></li>
+    <li><a href="#">GGSIPU</a></li>
+    <li><a href="#">BVP</a></li>
+    <li><a href="#">UGC</a></li>
+    <li><a href="#">AICTE (EOA)</a></li>
+    <li><a href="#">Developers</a></li>
+    </ul>
+    </div>
+
+    <!-- Logos Section -->
+    <div class="col-md-4 d-flex flex-column logo-section text-center">
+    <div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+    alt="Bharati News">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+    alt="Radio Bharati">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+    alt="Manzil">
     </div>
     <div>
-        <main role="main" class="container p-0 my-2">
-            <div class="announcement-container shadow-lg my-1 bg-red">
-                <div class="slider">
-                    <div class="slide">
-                        <p>Admission Enquiry</p>
-                    </div>
-                    <div class="slide">
-                        <p>Important Dates</p>
-                    </div>
-                    <div class="slide">
-                        <p>Submit Paper</p>
-                    </div>
-                    <div class="slide">
-                        <p>Get Membership</p>
-                    </div>
-                    <div class="slide">
-                        <p>Admission Enquiry</p>
-                    </div>
-                    <div class="slide">
-                        <p>Important Dates</p>
-                    </div>
-                    <div class="slide">
-                        <p>Submit Paper</p>
-                    </div>
-                    <div class="slide">
-                        <p>Get Membership</p>
-                    </div>
-                </div>
-
-            </div>
-            @RenderBody()
-        </main>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+    alt="Software">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+    alt="IJRMS">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
+    alt="CRIIS">
     </div>
-@* 
-    <footer class="footer container">
-        <div class="">
-            <div class="row">
-                <!-- Important Links 1 -->
-                <div class="col-md-3 important-links">
-                    <h5>Important Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">SGRC</a></li>
-                        <li><a href="#">NIRF Data</a></li>
-                        <li><a href="#">Mandatory Disclosure - Academic Audit</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
+    </div>
 
-                <!-- Important Links 2 -->
-                <div class="col-md-3 important-links">
-                    <h5>Important Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Grievances Redressal</a></li>
-                        <li><a href="#">GGSIPU</a></li>
-                        <li><a href="#">BVP</a></li>
-                        <li><a href="#">UGC</a></li>
-                        <li><a href="#">AICTE (EOA)</a></li>
-                        <li><a href="#">Developers</a></li>
-                    </ul>
-                </div>
+    <!-- Contact Information -->
+    <div class="col-md-2 text-center">
+    sdlfkdjskfldsjfk
+    </div>
+    </div>
 
-                <!-- Logos Section -->
-                <div class="col-md-4 d-flex flex-column logo-section text-center">
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
-                            alt="Bharati News">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
-                            alt="Radio Bharati">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
-                            alt="Manzil">
-                    </div>
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
-                            alt="Software">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
-                            alt="IJRMS">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s"
-                            alt="CRIIS">
-                    </div>
-                </div>
+    <div class="d-flex justify-content-between mt-3">
+    <div class="contact-info">
+    <i class="fas fa-map-marker-alt"></i>
+    <span>A-4, Paschim Vihar, Rohtak Road, New Delhi - 110063 (INDIA)</span>
+    </div>
+    <div class="contact-info">
+    <i class="fas fa-phone"></i>
+    <a href="tel:+918130176573" class="">+91-8130176573</a>
+    </div>
+    <div class="contact-info">
+    <i class="fas fa-envelope"></i>
+    <a href="mailto:mca@bvicam.ac.in" class="">mca@bvicam.ac.in</a>
+    </div>
+    <div class="contact-info">
+    <i class="fas fa-binoculars"></i>
+    <a href="#" class="">Virtual Tour</a>
+    </div>
+    </div>
+    </div>
 
-                <!-- Contact Information -->
-                <div class="col-md-2 text-center">
-                    sdlfkdjskfldsjfk
-                </div>
-            </div>
-
-            <div class="d-flex justify-content-between mt-3">
-                <div class="contact-info">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>A-4, Paschim Vihar, Rohtak Road, New Delhi - 110063 (INDIA)</span>
-                </div>
-                <div class="contact-info">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+918130176573" class="">+91-8130176573</a>
-                </div>
-                <div class="contact-info">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:mca@bvicam.ac.in" class="">mca@bvicam.ac.in</a>
-                </div>
-                <div class="contact-info">
-                    <i class="fas fa-binoculars"></i>
-                    <a href="#" class="">Virtual Tour</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Bar -->
-        <div class="bottom-bar">
-            <p class="mb-0">Copyright © 2024 BVICAM, New Delhi</p>
-        </div>
+    <!-- Bottom Bar -->
+    <div class="bottom-bar">
+    <p class="mb-0">Copyright © 2024 BVICAM, New Delhi</p>
+    </div>
     </footer> *@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
