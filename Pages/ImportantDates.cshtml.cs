@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace college.Pages;
 
-public class AddMember : PageModel
+public class ImportantDates : PageModel
 {
-    private readonly ILogger<AddMember> _logger;
+    private readonly ILogger<ImportantDates> _logger;
 
-    public AddMember(ILogger<AddMember> logger)
+    public ImportantDates(ILogger<ImportantDates> logger)
     {
         _logger = logger;
     }

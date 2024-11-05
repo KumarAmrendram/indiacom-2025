@@ -127,7 +127,13 @@ body {
 }
 
 .list li {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #000;
 }
 
 .img-carousel {
@@ -475,7 +481,8 @@ body {
   margin: auto;
 }
 
-.contact-info, .contact-info a {
+.contact-info,
+.contact-info a {
   color: #ffff00;
   padding: 10px 20px;
   border-radius: 5px;

@@ -18,10 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/kumaramrendram/Desktop/Projects/india comm
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/AddMember.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkTWVtYmVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/kumaramrendram/Desktop/Projects/india comm/Pages/callForPapers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvY2FsbEZvclBhcGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Faqs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmFxcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/GetMembership.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2V0TWVtYmVyc2hpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kumaramrendram/Desktop/Projects/india comm/Pages/ImportantDates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW1wb3J0YW50RGF0ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/kumaramrendram/Desktop/Projects/india comm/Pages/Index.cshtml]
