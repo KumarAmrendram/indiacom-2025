@@ -3,6 +3,14 @@ html {
   font-family: 'Lucida Sans';
 }
 
+.bs-primary {
+  background: #258cfb;
+}
+
+.text-primary {
+  color: #258cfb;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -134,16 +142,15 @@ body {
 .list a {
   text-decoration: none;
   color: #000 !important;
-  font-size: 1.1rem;
+  font-size: 14px;
+  font-weight: 500;
   border-bottom: 1px dashed yellow;
   padding: 5px 0;
 
 }
 
 .list a:hover {
-  transform: scale(1.02);
-  transition-duration: 350ms;
-  /* background: #000; */
+  color: red !important;
 }
 
 .img-carousel {
@@ -277,7 +284,7 @@ body {
 .responsive-table {
   li {
     border-radius: 3px;
-    padding: 25px 30px;
+    /* padding: 25px 30px; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
@@ -296,19 +303,19 @@ body {
   }
 
   .col-1 {
-    flex-basis: 10%;
+    /* flex-basis: 10%; */
   }
 
   .col-2 {
-    flex-basis: 40%;
+    /* flex-basis: 40%; */
   }
 
   .col-3 {
-    flex-basis: 25%;
+    /* flex-basis: 25%; */
   }
 
   .col-4 {
-    flex-basis: 25%;
+    /* flex-basis: 25%; */
   }
 
   @media all and (max-width: 767px) {
@@ -324,19 +331,19 @@ body {
 
     .col {
 
-      flex-basis: 100%;
+      /* flex-basis: 100%; */
 
     }
 
     .col {
       display: flex;
-      padding: 10px 0;
+      /* padding: 10px 0; */
 
       &:before {
         color: #6C7A89;
-        padding-right: 10px;
+        /* padding-right: 10px; */
         content: attr(data-label);
-        flex-basis: 50%;
+        /* flex-basis: 50%; */
         text-align: right;
       }
     }
@@ -540,4 +547,111 @@ body {
 /* sidebar */
 .sidebar {
   width: 300px !important;
+}
+
+
+
+/* Base styles for mobile-first design */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.section h1 {
+  font-size: 1.8rem;
+  color: #dc3545;
+  /* text-danger */
+  text-align: center;
+}
+
+.section h4 {
+  font-size: 1.4rem;
+  color: #0d6efd;
+  /* text-primary */
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.section p {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+/* Scrollable table for small screens */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* Table styling */
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.text-primary {
+  color: #0d6efd;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+  /* Adjust headings */
+  .section h1 {
+    font-size: 1.5rem;
+  }
+
+  .section h4 {
+    font-size: 1.2rem;
+  }
+
+  /* Stack table rows for mobile */
+  .table-wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .table-bordered td,
+  .table-bordered th {
+    display: block;
+    text-align: left;
+    width: 100%;
+    border: none;
+  }
+
+  .table-bordered th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    padding: 0.75rem;
+  }
+
+  .table-bordered tr {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.5rem;
+  }
 }
