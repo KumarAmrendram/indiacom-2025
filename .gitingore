@@ -3,6 +3,14 @@
 [Rr]elease/
 [Oo]bj/
 [Bb]in/
+# Ignore all .dll files
+*.dll
+**.dll
+
+# Ignore bin and obj directories (common for .NET projects)
+/bin/
+/obj/
+
 
 # User-specific files
 *.user
