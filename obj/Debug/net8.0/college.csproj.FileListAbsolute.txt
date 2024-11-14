@@ -60,3 +60,34 @@
 /Users/kumaramrendram/Desktop/Projects/india comm/obj/Debug/net8.0/college.pdb
 /Users/kumaramrendram/Desktop/Projects/india comm/obj/Debug/net8.0/college.genruntimeconfig.cache
 /Users/kumaramrendram/Desktop/Projects/india comm/obj/Debug/net8.0/ref/college.dll
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\appsettings.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\college.staticwebassets.runtime.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\college.exe
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\college.deps.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\college.runtimeconfig.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\college.dll
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\bin\Debug\net8.0\college.pdb
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.AssemblyInfoInputs.cache
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.AssemblyInfo.cs
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.csproj.CoreCompileInputs.cache
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.RazorAssemblyInfo.cache
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.RazorAssemblyInfo.cs
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.sourcelink.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\staticwebassets\msbuild.college.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\staticwebassets\msbuild.build.college.props
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.college.props
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.college.props
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\scopedcss\bundle\college.styles.css
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\scopedcss\projectbundle\college.bundle.scp.css
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.dll
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\refint\college.dll
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.pdb
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\college.genruntimeconfig.cache
+C:\Users\panka\OneDrive\Desktop\darshita\indiacom-2025\obj\Debug\net8.0\ref\college.dll

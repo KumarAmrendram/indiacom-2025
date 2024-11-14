@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/kumaramrendram/.nuget/packages/": {}
+    "C:\\Users\\panka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kumaramrendram/Desktop/Projects/india comm/college.csproj",
+      "projectUniqueName": "C:\\Users\\panka\\OneDrive\\Desktop\\darshita\\indiacom-2025\\college.csproj",
       "projectName": "college",
-      "projectPath": "/Users/kumaramrendram/Desktop/Projects/india comm/college.csproj",
-      "packagesPath": "/Users/kumaramrendram/.nuget/packages/",
-      "outputPath": "/Users/kumaramrendram/Desktop/Projects/india comm/obj/",
+      "projectPath": "C:\\Users\\panka\\OneDrive\\Desktop\\darshita\\indiacom-2025\\college.csproj",
+      "packagesPath": "C:\\Users\\panka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\panka\\OneDrive\\Desktop\\darshita\\indiacom-2025\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kumaramrendram/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\panka\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
