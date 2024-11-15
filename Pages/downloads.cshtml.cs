@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace college.Pages;
 
-public class Payment : PageModel
+public class Downloads : PageModel
 {
-    private readonly ILogger<Payment> _logger;
+    private readonly ILogger<Downloads> _logger;
 
-    public Payment(ILogger<Payment> logger)
+    public Downloads(ILogger<Downloads> logger)
     {
         _logger = logger;
     }

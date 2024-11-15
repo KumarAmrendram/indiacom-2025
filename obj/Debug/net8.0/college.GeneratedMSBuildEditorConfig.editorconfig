@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGFyc2hpdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/downloads.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZG93bmxvYWRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/GetMembership.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0TWVtYmVyc2hpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/guidelinestosubmitpaper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ3VpZGVsaW5lc3Rvc3VibWl0cGFwZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/ImportantDates.cshtml]
@@ -54,8 +62,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWVtYmVybG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/paymentmode.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGF5bWVudG1vZGUuY3NodG1s
+[C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/paymentmodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGF5bWVudG1vZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/panka/OneDrive/Desktop/darshita/indiacom-2025/Pages/Privacy.cshtml]
